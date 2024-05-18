@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>じゃんけんゲーム</title>
+</head>
+<body>
+    <div id="game">
+        <button id="start">じゃんけんを始める</button>
+        <div id="message">じゃんけん...</div>
+        <div id="opponent" style="text-align: center;"> <!-- Flexboxで中央揃え -->
+            <img src="img/g1.jpg" id="opponentHand" style="width: 100px; height: 100px;"> <!-- 初期画像設定 -->
+            <div id="choices"> <!-- ボタン表示を常にする -->
+                <button class="choice" data-choice="グー">グー</button>
+                <button class="choice" data-choice="チョキ">チョキ</button>
+                <button class="choice" data-choice="パー">パー</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="js_004/app.js"></script>
+</body>
+</html>
+

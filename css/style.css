@@ -1,0 +1,31 @@
+#game {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 24px;
+    margin: 20px;
+}
+
+body {
+    background-image: url('../img/01.jpg'); /* ディレクトリの階層を上がってからimgフォルダにアクセス */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#opponent {
+    display: flex;
+    flex-direction: column; /* 要素を縦方向に並べる */
+    align-items: center; /* 中央揃え */
+    justify-content: center; /* 中央揃え */
+}
+
